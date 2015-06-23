@@ -10,7 +10,7 @@ namespace LeetCodeChallenges.Tests
     [Trait("Challenge", "Algo6")]
     public class Algo6Test
     {
-        [Fact(DisplayName = "Add Two Numbers Passing")]
+        [Fact(DisplayName = "ZigZag Conversion Passing")]
         public void PassingTest()
         {
             Algo6 algo6 = new Algo6();
@@ -28,13 +28,6 @@ namespace LeetCodeChallenges.Tests
             var test2 = "PAYPALISHIRING";
             var expected2 = "PAHNAPLSIIGYIR";
             Assert.Equal(expected2, algo6.Convert(test2, 3));
-        }
-
-        [Fact(DisplayName = "Add Two Numbers Failing")]
-        public void FailingTest()
-        {
-
-
         }
     }
 }
