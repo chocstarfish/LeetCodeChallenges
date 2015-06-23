@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algo6.cs" />
     <Compile Include="Algo2.cs" />
     <Compile Include="Algo1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algo6Test.cs" />
     <Compile Include="Algo2Test.cs" />
     <Compile Include="Algo1Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
